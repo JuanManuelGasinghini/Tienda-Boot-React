@@ -1,12 +1,13 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import card from './card/card.jsx';
 import './About.css'
 
 const About = () => {
   return (
     <div className='CardContainer'>
-      <Card style={{ width: '18rem' }}>
+      <card style={{ width: '18rem' }}>
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
@@ -16,7 +17,7 @@ const About = () => {
           </Card.Text>
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
-      </Card>
+      </card>
 
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src="holder.js/100px180" />
