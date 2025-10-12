@@ -1,0 +1,17 @@
+.ProductView{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    width: 80%;
+}
+
+.ProductTitle{
+    color: blue;
+}
+
+.ProductImg{
+    width: 90%;
+    border-radius: 10px;
+}

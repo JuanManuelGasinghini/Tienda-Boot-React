@@ -1,4 +1,11 @@
-.jumbotron{
-    color: brown;
-        margin: 20px;
+.HomeStyles{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
 }

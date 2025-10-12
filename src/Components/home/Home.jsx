@@ -1,19 +1,24 @@
-import React from 'react'
-import CartWidget from '../CartWidget/CartWidget.jsx';
+import Tarjetita from "../tarjetita/Tarjetita.jsx";
 import './Home.css'
+import products from "../../Data/products.json"
+function Home()  {
+  const productList = products.map(v=> {
+    return <Tarjetita key={v.id} title={v.title} description={v.description} />
+  })
 
-
-const Home = () => {
   return (
-  <div className="jumbotron">
-  <h1 className="display-4">Hello, world!</h1>
-  <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr className="my-4"/>
-  <CartWidget/>
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-</div>
+    <div className="HomeStyles">
+      <div>
+      <h3>Título de la sección</h3>
+      <div className="container">
+      {productList}
+      </div>
+    </div>
+    </div>
   )
 }
 
-export default Home
+
+export default Home;
+
+
