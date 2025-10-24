@@ -1,6 +1,8 @@
 .Card {
+    display: flex;
+    flex-direction: column;
     width: 300px;
-    height: 100px;
+    height: 500px;
 border-radius: 20px;
 box-shadow: 2px 2px 5px #3333;
 background-color: rgb(177, 214, 238);
@@ -11,4 +13,11 @@ border: 2px solid;
 
 .Card-title {
     font-size: 1.5em;
+}
+
+.Card-Image{
+    display: flex;
+    width: 25%;
+    height: 25%;
+    margin-bottom: 15px;
 }

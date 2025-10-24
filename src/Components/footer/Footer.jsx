@@ -1,13 +1,15 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-
+import Logo from '../logo/Logo.jsx'
+import './Footer.css'
 
 const Footer = () => {
   return (
   <div>
         <Navbar className="bg-body-tertiary">
       <Container>
+        <Logo/>
         <Navbar.Brand href="#home">Desarrolled by JMGDEV</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">

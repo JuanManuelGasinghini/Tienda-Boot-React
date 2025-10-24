@@ -4,7 +4,7 @@
         "title": "Teclado",
         "description": "Teclado 60%",
         "stock": 5,
-        "image": "https://media.istockphoto.com/id/1152881215/photo/wireless-bluetooth-computer-keyboard.jpg?s=2048x2048&w=is&k=20&c=MYUcrcDFBNkLm3shFb_09qRYiK9cu2oM4xdGOCBylgI=",
+        "image": "/image/teclado.jpg",
         "price": 540
     },
     {
@@ -12,7 +12,7 @@
         "title": "Mouse",
         "description": "Mouse Rojo",
         "stock": 6,
-        "image": "",
+        "image": "/image/mouse.jpg",
         "price": 300
     },
     {
@@ -20,7 +20,7 @@
         "title": "Auriculares",
         "description": "Auricular Negro",
         "stock": 16,
-        "image": "",
+        "image": "/image/auriculares.jpg",
         "price": 200
     },
     {

@@ -5,6 +5,7 @@ import Header from './Components/header/Header';
 import Home from './Components/home/Home'
 import Footer from './Components/footer/Footer';
 import ItemListContainer from './Components/itemListContainer/ItemListContainer';
+import Logo from './Components/logo/Logo';
 import './App.css'
 
 function App() {

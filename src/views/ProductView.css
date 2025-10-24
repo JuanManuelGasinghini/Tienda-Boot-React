@@ -5,8 +5,12 @@
     text-align: center;
     margin: 20px;
     width: 80%;
+    background-color: rgb(107, 139, 212);
 }
 
+.ProductView h2 {
+    background-color: coral;
+}
 .ProductTitle{
     color: blue;
 }

@@ -3,13 +3,13 @@ import './Home.css'
 import products from "../../Data/products.json"
 function Home()  {
   const productList = products.map(v=> {
-    return <Tarjetita key={v.id} title={v.title} description={v.description} />
+    return <Tarjetita key={v.id} title={v.title} description={v.description} stock={v.stock} image={v.image} price={v.price}/>
   })
 
   return (
     <div className="HomeStyles">
       <div>
-      <h3>Título de la sección</h3>
+      <h3>Nuestros Productos</h3>
       <div className="container">
       {productList}
       </div>

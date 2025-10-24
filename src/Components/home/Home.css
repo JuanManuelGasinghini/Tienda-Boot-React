@@ -4,6 +4,12 @@
     align-items: center;
     flex-wrap: wrap;
 }
+.HomeStyles h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rebeccapurple;
+}
 .container{
 display: flex;
 flex-direction: row;
